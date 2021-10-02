@@ -27,7 +27,7 @@ export default function Footer() {
                 </h1>
                 <div className={`${styles.afterLogo}`}>
                     <ul className={`${styles.rightItems}`}>
-                        <li className={`${styles.footerRightItems}`}><a className={`${styles.commonClass} ${styles.blog}`} href="#">Blogs/Posts</a></li>
+                        <li className={`${styles.footerRightItems}`}><a className={`${styles.commonClass} ${styles.blog}`} href="#">Art Gallery</a></li>
                         <li className={`${styles.footerRightItems}`}><a className={`${styles.commonClass} ${styles.envolved}`} href="#">Get Envolved</a></li>
                         <li className={`${styles.footerRightItems}`}><a className={`${styles.commonClass} ${styles.contact}`} href="#">Contact Us</a></li>
                     </ul>

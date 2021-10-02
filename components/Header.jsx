@@ -33,7 +33,7 @@ export default function Header() {
 
 
 
-                    <li className={` ${styles.listItem}`}><a className={` ${styles.tabs}`} href="#">Blog</a></li>
+                    {/* <li className={` ${styles.listItem}`}><a className={` ${styles.tabs}`} href="#">Blog</a></li> */}
                     <li className={` ${styles.listItem}`}><a className={` ${styles.tabs}`} href="#">Art Gallery</a></li>
 
 

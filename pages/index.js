@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer'
+import BtnSlider from '../components/Slideshow/BtnSlider.jsx'
+import Slider from '../components/Slideshow/Slider.jsx'
+
 
 export default function Home() {
   return (
@@ -14,20 +17,7 @@ export default function Home() {
       </Head>
 
       <Header />
-
-      <div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-      </div>
+      <Slider />
       <Footer />
 
     </div>

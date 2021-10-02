@@ -10,13 +10,13 @@ export default function SocialIcons() {
             <div className={`${styles.socialIcons}`}>
                 <a href="_blank" className="fa fa-facebook"></a>
                 <a href="_blank" className="fa fa-twitter"></a>
-                <a href="_blank" class="fa fa-instagram"></a>
-                <a href="_blank" class="fa fa-youtube"></a>
+                <a href="_blank" className="fa fa-instagram"></a>
+                <a href="_blank" className="fa fa-youtube"></a>
             </div>
 
             {/* copyright text */}
             <div className={`${styles.copyright}`}>
-                ©{year} Copyright | All Rights Reserved | <span>Insaf Sansthan</span>
+                ©{year} Copyright  |  All Rights Reserved  |  <span>Insaf Sansthan</span>
             </div>
         </div>
     );
