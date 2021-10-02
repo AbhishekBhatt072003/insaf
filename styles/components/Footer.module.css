@@ -1,0 +1,147 @@
+.footerWrapper
+{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--headerBackgroundColor);
+}
+
+
+.footerContent
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 6vw;
+}
+
+.leftItems, .rightItems
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.15vw;
+    color: #edf0f1;
+}
+
+
+.footerLeftItems, .footerRightItems
+{
+    margin: 1vw 2vw ;
+    list-style: none;
+}
+
+
+.commonClass
+{
+    text-decoration: none;
+    color: #edf0f1;
+    padding: 0.5vw 0.5vw;
+}
+
+.commonClass:hover
+{
+    /* color: var(--headerPrimaryColor); */
+    border-radius: 2.5vw;
+    background-color: var(--headerPrimaryColor);
+    
+}
+
+
+.logo
+{
+    font-family: "Rajasthan";
+    font-size: 2.75vw;
+    color: var(--headerPrimaryColor);
+    cursor: pointer;
+    text-align: center;
+    line-height: 2.75vw;
+    padding-top: 1.25vw;
+}
+.logoSpan
+{
+    color: white;
+    font-size: 1.75vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.socialLinks
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 
+.socialList
+{
+    margin: .5vw ;   
+}
+
+.socialButton
+{
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.socialButton:hover
+{
+    background:black;
+
+}
+
+.socialButton:hover .social
+{
+    fill: white;
+} */
+
+/* .social
+{
+    width: 1.5vw;
+    margin: .5vw .5vw;
+    padding: 0.5vw;
+    fill: white;
+}
+ */

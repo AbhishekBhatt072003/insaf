@@ -1,72 +1,55 @@
-import styles from '../styles/components/primary-buttons.module.css'
+import styles from '../styles/components/Header.module.css'
 
-function Header() {
+export default function Header() {
     return (
-        <nav>
+        <header className={`${styles.headerWrapper}`}>
+            <h1 className={`${styles.logo}`}>Insaf <span className={`${styles.logoSpan}`}>Sansthan</span></h1>
+            <nav>
+                <ul className={`${styles.navLinks}`}>
 
-            <div className="logo">Insaf Sansthan</div>
-            <label for="btn" className="icon">
-                <span className="fa fa-bars"></span>
-            </label>
-            <input type="checkbox" id="btn" />
 
-            <ul>
+                    <li className={` ${styles.listItem}`}><a className={` ${styles.tabs}`} href="#">Home</a></li>
+                    <li className={` ${styles.listItem}`}><a className={` ${styles.tabs}`} href="#">Our Story</a></li>
 
-                <li><a href="#">Home</a></li>
+                    {/* Activities */}
+                    <li className={`${styles.dropDown} ${styles.listItem}`}>
+                        <a className={` ${styles.tabs}`} href="#">Activities</a>
+                        <ul className={`${styles.secondaryList}`}>
+                            <li className={`${styles.secondaryListItem}`}><a className={` ${styles.tabs}`} href="#">Art Tour</a></li>
+                            <li className={`${styles.secondaryListItem}`}><a className={` ${styles.tabs}`} href="#">Craft Tour</a></li>
+                            <li className={`${styles.secondaryListItem}`}><a className={` ${styles.tabs}`} href="#">Wildlife Tour</a></li>
+                        </ul>
+                    </li>
 
-                <li><a href="#">Our Story</a></li>
-
-                <li>
-                    <label for="btn-1" className="show">Activities/Works</label>
-                    <a href="#">Activities/Works</a>
-                    <input type="checkbox" id="btn-1" />
-                    <ul>
-                        <li><a href="#">Folk/Music</a></li>
-                        <li><a href="#">Craft Tour</a></li>
-                        <li><a href="#">Wildlife Tour</a></li>
-                    </ul>
-                </li>
-
-                <li>
-                    <label for="btn-2" className="show">About Us</label>
-                    <a href="#">About Us</a>
-                    <input type="checkbox" id="btn-2" />
-                    <ul>
-                        <li><a href="#" >Insaf Sansthan</a></li>
-                        <li><a href="#">Founder</a></li>
-                        <li><a href="#">Our Team</a></li>
-                    </ul>
-                </li>
+                    {/* About us  */}
+                    <li className={`${styles.dropDown} ${styles.listItem}`}>
+                        <a className={` ${styles.tabs}`} href="#">About Us</a>
+                        <ul className={`${styles.secondaryList}`}>
+                            <li className={`${styles.secondaryListItem}`}><a className={` ${styles.tabs}`} href="#">Insaf Sansthan</a></li>
+                            <li className={`${styles.secondaryListItem}`}><a className={` ${styles.tabs}`} href="#">Founder</a></li>
+                            <li className={`${styles.secondaryListItem}`}><a className={` ${styles.tabs}`} href="#">Our Team</a></li>
+                        </ul>
+                    </li>
 
 
 
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Art Gallery</a></li>
+                    <li className={` ${styles.listItem}`}><a className={` ${styles.tabs}`} href="#">Blog</a></li>
+                    <li className={` ${styles.listItem}`}><a className={` ${styles.tabs}`} href="#">Art Gallery</a></li>
 
 
-                <li>
-                    <label for="btn-2" className="show">Contact Us</label>
-                    <a href="#">Contact Us
-                    </a>
-                    <input type="checkbox" id="btn-2" />
+                    {/* Contact us  */}
+                    <li className={`${styles.dropDown} ${styles.listItem}`}>
+                        <a className={` ${styles.tabs}`} href="#">Contact Us</a>
+                        <ul className={`${styles.secondaryList}`}>
+                            <li className={`${styles.secondaryListItem}`}><a className={` ${styles.tabs}`} href="#">Work With us </a></li>
+                            <li className={`${styles.secondaryListItem}`}><a className={` ${styles.tabs}`} href="#">Reach Us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
 
-                    <ul>
-                        <li><a href="#">Work with Us</a></li>
-                        <li><a href="#">Reach Us</a></li>
-                    </ul>
-
-                </li>
-
-                <li className={`${styles.primary_button}`}>
-                    <a href="#">Donate Us</a>
-                </li>
-
-
-            </ul>
-        </nav>
-
-
-    );
+            <a className={``}><button className={`commonClass ${styles.donateButton}`}>Donate Us</button></a>
+        </header>
+    )
 }
 
-export default Header

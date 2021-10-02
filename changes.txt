@@ -1,0 +1,7 @@
+1 create Header and header.module.css
+2 create footer and footer.module.css
+
+3 created subcomponents folder > SocialIcons.jsx and SocialIcons.module.css
+4 added some global css for Social Icons 
+5 Added social icons cnd link to index.js
+6   If wanted to change the blue and black colour just change the roots css variables inside global.css o

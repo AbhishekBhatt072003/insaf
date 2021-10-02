@@ -1,0 +1,128 @@
+
+.listItem, .tabs , .donateButton
+{
+    font-family: 'Mukta', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+
+}
+
+.headerWrapper
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 3vw;
+    background-color: var(--headerBackgroundColor);
+    /* border-radius: 6vw; */
+    height: 5vw;
+}
+
+.logo
+{
+    font-family: "Rajasthan";
+    font-size: 2.75vw;
+    color: var(--headerPrimaryColor);
+    cursor: pointer;
+}
+
+.logoSpan
+{
+    color: white;
+    font-size: 1.75vw;
+}
+
+.navLinks
+{
+    list-style: none;
+    padding: 0;
+}
+
+.listItem
+{
+   display: inline-block; 
+   padding: 5vw 1.15vw;
+}
+
+.tabs
+{
+    font-size: 1.35vw;
+    transition: all 0.3s ease 0s;
+}
+.tabs:hover
+{
+    /* border: 0.25vw solid #0088a9; */
+    /* border-radius: 0.5vw ; */
+    color: var(--headerPrimaryColor);
+}
+
+.donateButton
+{
+    background-color: var(--headerPrimaryColor);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 1.35vw;
+    padding: 0.45vw 1.25vw;
+
+}
+
+.donateButton:hover
+{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+/* ======= drop down ==========*/
+
+
+.secondaryList
+{
+    opacity: 0;
+    visibility: hidden;
+    list-style: none;
+    position:absolute;
+    background-color: var(--headerBackgroundColor);
+    top: 5vw;
+    width: 10vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+
+}
+
+.dropDown:hover .secondaryList
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vw;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--headerBackgroundColor);
+    opacity: 1;
+    visibility: visible;
+}
+
+.secondaryList:hover
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vw;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--headerBackgroundColor);
+    opacity: 1;
+    visibility: visible;  
+}
+
+
+
+
+
