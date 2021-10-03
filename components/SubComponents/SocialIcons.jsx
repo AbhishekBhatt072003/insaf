@@ -16,7 +16,7 @@ export default function SocialIcons() {
 
             {/* copyright text */}
             <div className={`${styles.copyright}`}>
-                ©{year} Copyright  |  All Rights Reserved  |  <span>Insaf Sansthan</span>
+                ©{year} Copyright   |   All Rights Reserved  |  <span>Insaf Sansthan</span>
             </div>
         </div>
     );

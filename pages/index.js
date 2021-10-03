@@ -1,9 +1,8 @@
 import Head from 'next/head'
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer'
-import BtnSlider from '../components/Slideshow/BtnSlider.jsx'
 import Slider from '../components/Slideshow/Slider.jsx'
-
+import ArtGallery from '../components/Art-Gallery/ArtGalley.jsx'
 
 export default function Home() {
   return (
@@ -17,8 +16,10 @@ export default function Home() {
       </Head>
 
       <Header />
-      <Slider />
+      {/* <Slider /> */}
+      <ArtGallery />
       <Footer />
+
 
     </div>
   )
