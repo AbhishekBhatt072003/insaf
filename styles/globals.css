@@ -1,6 +1,6 @@
 @import url(//db.onlinewebfonts.com/c/6bff5f8f85a7385fbdc21a8f724dd8ac?family=Rajasthan);
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap');
 :root
 {
     --headerPrimaryColor : #0088a9;
@@ -15,7 +15,7 @@
 }
 body{
     margin: 0.75vw;
-    /* background: #24252A; */
+    background: #24252A;
 }
 
 

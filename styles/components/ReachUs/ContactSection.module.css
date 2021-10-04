@@ -1,0 +1,34 @@
+.contactInformation
+{
+    display: flex;
+    margin-bottom: 2rem;
+    /* flex-direction: co; */
+}
+
+.contactTitle
+{
+    font-size: 3vw;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+}
+
+.contactSubtitle
+{
+    font-size: 2vw;
+    color: white;
+
+}
+
+.contactIcon
+{
+    font-size: 3vw;
+    color: white;
+    margin-top: auto;
+    /* margin-left: 1vw; */
+    margin-right: 2vw;
+    /* color: var(--first-color); */
+    /* margin-right: 0.75rem; */
+}
+
+/* font-family: "Rajasthan";
+font-family: 'Mukta', sans-serif; */

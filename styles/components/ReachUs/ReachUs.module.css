@@ -1,0 +1,28 @@
+.section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    background-color: var(--headerBackgroundColor);
+    
+}
+
+
+
+
+
+
+
+/* tilte  */
+.sectionTitle
+{
+    margin: 1vw 1vw;
+    font-family: "Rajasthan";
+    font-size: 4vw;
+    text-align: center;
+}
+
+

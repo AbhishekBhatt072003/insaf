@@ -1,0 +1,32 @@
+.viewLink{
+    text-decoration: none;
+    margin: 2vw auto;
+}
+
+.viewLink:hover{
+    background-color: none;
+}
+
+.viewButton{
+    color: black;
+    text-transform: capitalize;
+    background-color: white;
+    padding: 0.75vw 2.5vw;
+    text-decoration: none;
+    /* border-radius: 0.25vw; */
+    text-align: center;
+    font-size: 1vw;
+    /* font-weight: bold; */
+    /* font-family: var(--primaryFont); */
+    transition: all 0.25s ease-in-out;
+    /* box-shadow: 0 0 0 black; */
+    border: 2px solid black;
+}
+
+.viewButton:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    /* box-shadow: 0 0 2vw black; */
+}
